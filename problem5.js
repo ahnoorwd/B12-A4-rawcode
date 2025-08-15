@@ -30,5 +30,5 @@ function resultReport(marks) {
 }
 
 
-console.log(resultReport(100));
+//console.log(resultReport(100));
 

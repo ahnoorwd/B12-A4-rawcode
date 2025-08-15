@@ -7,4 +7,4 @@ function totalFine(fare) {
     return fine;
 }
 
-console.log(totalFine("gorib tai katinai")); 
+//console.log(totalFine("gorib tai katinai")); 

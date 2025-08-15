@@ -1,12 +1,12 @@
-function onlyCharacter(input) {
+function onlyCharacter(str) {
      // You have to write your code here
-    if (typeof input !== "string") {
+    if (typeof str !== "string") {
         return "Invalid";
     }
-    let result = input.split(" ").join("").toUpperCase();
+    let result = str.split(" ").join("").toUpperCase();
 
     return result;
 }
 
-console.log(onlyCharacter("  h e llo wor   ld"));       // HELLOWORLD
+//console.log(onlyCharacter("  h e llo wor   ld"));       // HELLOWORLD
                 
